@@ -1,0 +1,158 @@
+/* font family link start here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* end */
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* container start here */
+.section-1 
+{
+    height: 78vh;
+    background-color: #f0f2f5;
+}
+
+.part-one-here {
+    width: 390px;
+    margin-left: 550px;
+}
+
+.part-one-here .facebooks-logo img {
+    width: 240px;
+    margin: 50px 0 0 68px;
+}
+
+/* login form start here */
+.login-form {
+    height: 320px;
+    border: 1px solid #607d8b70;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 2px 2px #9e9e9e7d;
+}
+
+.login-form .login-text {
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-form form input {
+    width: 90%;
+    margin: 8px 19px 8px 20px;
+    padding: 8px 5px;
+    font-size: 18px;
+    font-family: inherit;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #eaebed;
+    border-radius: 6px;
+    padding: 12px 11px;
+}
+input[type="text"]:focus
+{
+    border: 1px solid #dddfe2d6;
+}
+
+/* ============That is every imporant part in the project=============== */
+input:focus::placeholder
+{
+    color: #b5b5b7;
+}
+/* ============That is every imporant part in the project=============== */
+
+
+.login-form form input[type="submit"] {
+  font-size: 20px;
+  color: #fff; 
+  background-color: #1877f2; 
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* a tag desing start here */ 
+.forgot-or-sinup {
+    margin-top: 12px;
+    margin-left: 35px;
+}
+
+.forgot-or-sinup a {
+    color: #1877f2;
+    font-size: 16px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.forgot-or-sinup a:hover 
+{
+    color: #1877f2;
+    text-decoration: underline;
+}
+
+/* -------------------------------------------- */
+/* section-2 start here  */
+/* -------------------------------------------- */
+.section-2 {
+    margin: 0 30px 30px 30px;
+    width: 1300px;
+    margin-top: 150px;
+}
+.section-2 .select-country
+{
+    list-style-type: none;
+}
+.section-2 .select-country li 
+{
+    float: left;
+    margin-left: 15px;
+}
+.section-2 .select-country li a 
+{
+   
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: 12px;
+}
+.section-2 .select-country li a:hover 
+{
+    text-decoration: underline;
+}
+/* line start here */
+.line {
+    padding: 13px 0;
+    border-bottom: 1px solid #8a8d91;
+}
+
+/* ----------------------------------------- */
+    /* second-link-line start here */
+/* ----------------------------------------- */
+
+.section-2 .second-link-line .visite-link 
+{
+    list-style-type: none;
+}
+.section-2 .second-link-line .visite-link li 
+{
+    float: left;
+    margin-left: 15px;
+}
+.section-2 .second-link-line .visite-link li a 
+{
+    text-decoration: none;
+    color:  #8a8d91;
+    font-size: 12px;
+}
+.section-2 .second-link-line .visite-link li a:hover 
+{
+    text-decoration: underline;
+}
+
+.copyWrith p {
+    margin-left: 87px;
+    margin-top: 62px;
+    color:  #8a8d91;
+}

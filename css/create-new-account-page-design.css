@@ -1,0 +1,323 @@
+/* font family link start here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* end */
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container
+{
+    background-color: #f0f2f5;
+}
+.container-part-1 {
+    width: 430px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin: 0px 0 40px 550px;
+}
+
+.facebook-img img {
+    width: 270px;
+    margin: 0px 0 0 75px;
+}
+
+/* form start here */
+.main-form-starting-here {
+    padding: 10px 15px;
+    border: 1px solid #eeeeee;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px 1px #9e9e9e82;
+}
+.main-box .creatingMess 
+{
+    text-align: center;
+}
+
+.main-box .creatingMess .text-1 {
+    margin-top: -1px;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-box .creatingMess p 
+{
+    margin-top: -15px;
+    font-size: 18px;
+   color: #606770;
+}
+
+/* line start here */
+.line 
+{
+    margin: 10px -15px;
+    border-bottom: 1px solid #e0e3e6;
+}
+
+/*registation form start here*/
+.registation-form form input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 8px;
+    font-size: 16px;
+    border: 1px solid #9e9e9e9c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.registation-form form input[name="fName"], 
+.registation-form form input[name="surName"] 
+{
+    width: 48%;
+    margin: 10px 0px 10px 0;
+    padding: 8px;
+    border: 1px solid #9e9e9ead;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.registation-form form input[name="fName"] {
+    margin-right: 5px;
+}
+
+.registation-form form input[name="surName"]
+{
+    margin-left: 2px;
+}
+/*dete_of_birth start here*/
+.dob .dete_of_birth {
+    margin: 8px 70% 8px 0;
+    color: #455a64;
+}
+
+/*question mark design*/
+span {
+    color: #fff;
+    background: #757575;
+    padding: 0px 3px;
+    border: 1px solid #9e9e9e;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*date of birth start here*/
+
+.dob #date-selection {
+    width: 114px;
+    margin: 6px 5px 6px 0px;
+    padding: 6px 8px;
+    border: 1px solid #9e9e9e;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dob #month-selector
+{
+    width: 114px;
+    margin: 0px;
+    padding: 6px 8px;
+    border: 1px solid #9e9e9e;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dob #year-selector
+{
+    width: 114px;
+    margin: 6px;
+    padding: 6px 8px;
+    border: 1px solid #9e9e9e;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*gender design*/
+.gender_design 
+{
+    color: #455a64;;
+}
+.female-section {
+    width: 100px;
+    margin: 10px 10px 10px 0;
+    padding: 3px 6px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    background: #fff;
+    float: left;
+}
+.female-section label 
+{
+    color: #424242;
+}
+.female-section input[type="radio"] 
+{
+    width: 30px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+/*male*/
+.mail-section
+{
+    width: 100px;
+    margin: 10px 10px 10px 0;
+    padding: 3px 6px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
+    float: left;
+}
+.mail-section label 
+{
+    color: #424242;
+}
+.mail-section input[type="radio"] 
+{
+    width: 30px;
+    height: 15px;
+    margin-left: 30px;
+}
+/*custom*/
+.custom-section
+{
+    width: 100px;
+    margin: 10px 0;
+    padding: 3px 6px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    background: #fff;
+    overflow: hidden;
+}
+.custom-section label
+{
+    color: #424242;
+}
+.custom-section input[type="radio"] 
+{
+    width: 30px;
+    height: 15px;
+    margin-left: 12px;
+}
+
+/*text start here*/
+.text-and-link 
+{
+    margin: 12px 0;
+    color: #777;
+
+}
+
+.text_1 small a,
+.text_2 small a
+{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.speacing
+{
+    margin: 10px 0;
+}
+
+.sing-up-btn button {
+    margin: 10px 4px 0px 90px;
+    padding: 10px 80px;
+    background: #00a400;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*another link start here*/
+.sing-up-btn p 
+{
+    color: #1877f2;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* -------------------------------------------- */
+/* section-2 start here  */
+/* -------------------------------------------- */
+.section-2 {
+    margin: 0 30px 30px 30px;
+    width: 1300px;
+    margin-top: 150px;
+}
+.section-2 .select-country
+{
+    list-style-type: none;
+}
+.section-2 .select-country li 
+{
+    float: left;
+    margin-left: 15px;
+}
+.section-2 .select-country li a 
+{
+   
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: 12px;
+}
+.section-2 .select-country li a:hover 
+{
+    text-decoration: underline;
+}
+/* line start here */
+.line {
+    padding: 13px 0;
+    border-bottom: 1px solid #8a8d91;
+}
+
+/* ----------------------------------------- */
+    /* second-link-line start here */
+/* ----------------------------------------- */
+
+.section-2 .second-link-line .visite-link 
+{
+    list-style-type: none;
+}
+.section-2 .second-link-line .visite-link li 
+{
+    float: left;
+    margin-left: 15px;
+}
+.section-2 .second-link-line .visite-link li a 
+{
+    text-decoration: none;
+    color:  #8a8d91;
+    font-size: 12px;
+}
+.section-2 .second-link-line .visite-link li a:hover 
+{
+    text-decoration: underline;
+}
+
+.copyWrith p {
+    margin-left: 87px;
+    margin-top: 62px;
+    color:  #8a8d91;
+}
+
+

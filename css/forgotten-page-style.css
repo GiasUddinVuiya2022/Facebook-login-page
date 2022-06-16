@@ -1,0 +1,220 @@
+/* font family link start here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* end */
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* backgorund color start here */
+.main-section-number-1
+{
+    height: 70vh;
+    background-color: #e9ebee;
+}
+.container nav {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #607d8b0f;
+}
+.container nav .logo img 
+{
+    margin-right: 762px;
+    width: 160px;
+    float: left;
+}
+
+.container nav .login-form form input
+{
+    width: 150px;
+    margin: 7px 4px 7px 0;
+    padding: 11px 20px 11px 10px;
+    outline: none;
+    border: 1px solid #9e9e9eb5;
+    font-size: 15px;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container nav .login-form form input:hover 
+{
+    border: 1px solid #607D8B;
+}
+.container nav .login-form form input:focus
+{
+    border: 1px solid #1876f2;
+}
+input:focus::placeholder
+{
+    color: #9E9E9E;
+}
+.container nav .login-form form #loginBtnElm {
+    width: 70px;
+    font-size: 16px;
+    color: #fff;
+    background: #1876f2;
+    border: 1px solid #3174cb;
+    border-radius: 9px;
+    padding: 11px 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.container nav .login-form form #loginBtnElm:hover 
+{
+    color: #efefef;
+}
+.container nav .login-form form #loginBtnElm:focus 
+{
+    border: 1px solid #fff;
+}
+/* forgotten password start here  */
+.login-form form a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #216fdb;
+}
+
+.login-form form a:hover 
+{
+    border-bottom: 1px solid #216fdb;
+}
+
+/* part-2 start here  */
+
+.section-2 {
+    width: 500px;
+    margin: 70px 0px 0 500px;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2px 3px 2px -1px #9e9e9e;
+}
+
+
+#find-acc {
+    margin: 18px 0 12px 15px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #000000;
+}
+/* border start here  */
+.line {
+    border-bottom: 1px solid #9e9e9e80;
+}
+
+.paragraph p {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 16px 25px;
+}
+
+.find-email-or-phone input {
+    width: 95%;
+    margin: 10px 0 12px 10px;
+    padding: 16px 10px;
+    font-size: 16px;
+    border: 1px solid #9e9e9ea1;
+    border-radius: 7px;
+    box-sizing: border-box;
+    outline: none;
+}
+/* button desing start here */
+.btn-cancel-or-search {
+    margin: 20px 0 15px 290px;
+}
+
+.btn-cancel-or-search button {
+    margin-right: 11px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #388af4;
+    cursor: pointer;
+}
+
+.btn-cancel-or-search button a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-cancel-or-search .cancelBtn 
+{
+    color: #444950;
+    background-color: #e4e6eb;
+    font-weight: bold;
+}
+.btn-cancel-or-search .cancelBtn a 
+{
+    color: #444950;
+    background-color: #e4e6eb;
+    font-weight: bold;
+}
+
+
+/* -------------------------------------------- */
+/* link one start here  */
+/* -------------------------------------------- */
+.main-section-number-2 {
+    margin: 0 30px 30px 30px;
+    width: 1300px;
+    margin-top: 150px;
+}
+.main-section-number-2 .select-country
+{
+    list-style-type: none;
+}
+.main-section-number-2 .select-country li 
+{
+    float: left;
+    margin-left: 15px;
+}
+.main-section-number-2 .select-country li a 
+{
+   
+    text-decoration: none;
+    color: #8a8d91;
+    font-size: 12px;
+}
+.main-section-number-2 .select-country li a:hover 
+{
+    text-decoration: underline;
+}
+/* line start here */
+.line {
+    padding: 13px 0;
+    border-bottom: 1px solid #8a8d91;
+}
+
+
+/* ----------------------------------------- */
+    /* second-link-line start here */
+/* ----------------------------------------- */
+
+.main-section-number-2 .second-link-line .visite-link 
+{
+    list-style-type: none;
+}
+.main-section-number-2 .second-link-line .visite-link li 
+{
+    float: left;
+    margin-left: 15px;
+}
+.main-section-number-2 .second-link-line .visite-link li a 
+{
+    text-decoration: none;
+    color:  #8a8d91;
+    font-size: 12px;
+}
+.main-section-number-2 .second-link-line .visite-link li a:hover 
+{
+    text-decoration: underline;
+}
+
+.copyWrith p {
+    margin-left: 87px;
+    margin-top: 62px;
+    color:  #8a8d91;
+}
